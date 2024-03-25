@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "hello-kafka"
+version = "0.1.0"
+description = ""
+authors = ["Jessica Chiang <jessica.chiang@naxgrp.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+kafka = "^1.3.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
